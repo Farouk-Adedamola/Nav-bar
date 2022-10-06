@@ -1,8 +1,13 @@
 import "./App.css";
 import React, { Fragment } from "react";
+import Navbar from "./Navbar";
 
 function App() {
-  return <Fragment>hello</Fragment>;
+  return (
+    <Fragment>
+      <Navbar />
+    </Fragment>
+  );
 }
 
 export default App;
